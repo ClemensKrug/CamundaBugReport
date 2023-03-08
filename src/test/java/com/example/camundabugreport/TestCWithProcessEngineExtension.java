@@ -29,7 +29,7 @@ import static org.camunda.bpm.engine.test.assertions.bpmn.BpmnAwareTests.assertT
  * or if the {@link TestHelper} didn't store it's own map of ProcessEngines.
  */
 @ExtendWith(ProcessEngineExtension.class)
-public class C_TestWithProcessEngineExtension {
+public class TestCWithProcessEngineExtension {
 
     public static ProcessEngine processEngine;
 

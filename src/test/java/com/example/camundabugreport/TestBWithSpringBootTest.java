@@ -15,7 +15,7 @@ import org.springframework.test.annotation.DirtiesContext;
  */
 @SpringBootTest(classes = CamundaBugReportApplication.class)
 @DirtiesContext(classMode = DirtiesContext.ClassMode.AFTER_CLASS)
-public class B_TestWithSpringBootTest {
+public class TestBWithSpringBootTest {
 
     @Test
     public void secondTest() {

@@ -1,7 +1,6 @@
 package com.example.camundabugreport;
 
 import org.camunda.bpm.engine.ProcessEngine;
-import org.camunda.bpm.engine.runtime.Job;
 import org.camunda.bpm.engine.runtime.ProcessInstance;
 import org.camunda.bpm.engine.test.Deployment;
 import org.camunda.bpm.engine.test.junit5.ProcessEngineExtension;
@@ -23,7 +22,7 @@ import static org.camunda.bpm.engine.test.assertions.bpmn.BpmnAwareTests.assertT
  * in this test.
  */
 @ExtendWith(ProcessEngineExtension.class)
-public class A_TestWithProcessEngineExtension {
+public class TestAWithProcessEngineExtension {
 
     public static ProcessEngine processEngine;
 
